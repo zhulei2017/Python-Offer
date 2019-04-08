@@ -32,4 +32,4 @@ def gen_link(length):
 
 if __name__ == "__main__":
     node_test = gen_link(5)
-    print(last_kth(node_test, 4))
+    print(last_kth(node_test, 2))
