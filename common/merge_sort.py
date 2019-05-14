@@ -39,6 +39,7 @@ def merge_sort(lst):
         slen *= 2
         merge_pass(templst, lst, llen, slen)
         slen *= 2
+    return lst
 
 
 if __name__ == "__main__":
