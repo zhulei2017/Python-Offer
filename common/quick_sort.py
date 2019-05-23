@@ -6,6 +6,7 @@ def quick_sort(array, left, right):
     return array
 
 
+# 选取一个数（枢纽元），只负责以下内容：比他小的都在左边，大的都在右边
 def partition(array, left, right):
     pivot = array[right]    # 选择最后一个数作为枢纽元
     location = left - 1    # 指向比 x 小的元素段的尾部
@@ -13,6 +14,7 @@ def partition(array, left, right):
         if array[i] <= pivot:
             location += 1
             array[location], array[i] = array[i], array[location]
+            # print(array[location], array[i])
     array[location + 1], array[right] = array[right], array[location + 1]
     return location + 1
 
