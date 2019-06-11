@@ -17,4 +17,4 @@ class solution(object):
 
 
 if __name__ == "__main__":
-    print(solution().nthUglyNumber(1))
+    print(solution().nthUglyNumber(1500))
