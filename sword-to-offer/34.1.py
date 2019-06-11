@@ -12,7 +12,6 @@ class solution(object):
             while ugly[t5]*5 <= ugly[-1]:
                 t5 += 1
             ugly.append(min(ugly[t2]*2, ugly[t3]*3, ugly[t5]*5))
-            print(ugly)
         return ugly[-1]
 
 
