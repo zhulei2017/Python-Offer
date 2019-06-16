@@ -44,5 +44,5 @@ def merge_sort(lst):
 
 if __name__ == "__main__":
     ret = [2, 4, 5, 7, 2, 6]
-    merge_sort(ret)
-    print(ret)
+    ret_sort = merge_sort(ret)
+    print(ret_sort)
